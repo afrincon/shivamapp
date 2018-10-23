@@ -7498,6 +7498,10 @@ a.icon-primary:hover {
 .rd-navbar--is-stuck {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11); }
 
+.rd-navbar--is-stuck .logo {
+  max-width: 35%;
+}
+
 .rd-navbar.rd-navbar-fixed + .rd-navbar.rd-navbar--is-clone,
 .rd-navbar.rd-navbar-sidebar + .rd-navbar.rd-navbar--is-clone {
   display: none; }
