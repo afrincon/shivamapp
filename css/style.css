@@ -124,6 +124,13 @@ html.boxed .page {
   margin-left: auto;
   margin-right: auto; }
 
+ /* Images clients */
+
+ .page-content section .clients {
+  max-width: 80%;
+}
+
+
 /*
 * @section      TM Grid System
 *
