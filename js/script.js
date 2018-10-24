@@ -680,3 +680,11 @@ function isIE() {
         });
     }
 })(jQuery);
+
+
+(function ($) { 
+    $('.rd-navbar-nav>li').click(function(){
+        $('.rd-navbar-nav>li').removeClass('active');
+        $(this).addClass('active');
+    });
+})(jQuery);
