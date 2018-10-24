@@ -681,10 +681,8 @@ function isIE() {
     }
 })(jQuery);
 
+/* Menu active */
 
-(function ($) { 
-    $('.rd-navbar-nav>li').click(function(){
-        $('.rd-navbar-nav>li').removeClass('active');
-        $(this).addClass('active');
-    });
-})(jQuery);
+(function($){
+    
+});
