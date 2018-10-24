@@ -1876,7 +1876,7 @@ html body .page .text-primary {
   /* IE6-9 */ }
 
 .bg1 {
-  background: transparent url("../images/bg1.jpg") no-repeat scroll 50% 0/cover; }
+  background: transparent url("../images/bg1.jpg") no-repeat scroll 50% 0/cover;  opacity: 0.6;}
 
 .bg2 {
   background: none;
@@ -1887,13 +1887,13 @@ html body .page .text-primary {
       background: transparent url("../images/bg_header.jpg") no-repeat scroll 50% 0/cover; } }
 
 .bg3 {
-  background: transparent url("../images/page-2_img09.jpg") no-repeat scroll 50% 0/cover; }
+  background: transparent url("../images/page-2_img09.png") no-repeat scroll 50% 0/cover; opacity: 0.6; }
 
 .bg4 {
-  background: transparent url("../images/page-3_img06.jpg") no-repeat scroll 50% 0/cover; }
+  background: transparent url("../images/page-3_img06.jpg") no-repeat scroll 50% 0/cover; opacity: 0.6; }
 
 .bg5 {
-  background: transparent url("../images/page-4_img05.jpg") no-repeat scroll 50% 0/cover; }
+  background: transparent url("../images/page-4_img05.jpg") no-repeat scroll 50% 0/cover; opacity: 0.6; }
 
 .default-9 {
   background: #fafafa; }
@@ -7505,6 +7505,8 @@ a.icon-primary:hover {
 .rd-navbar--is-stuck {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11); }
 
+
+.rd-navbar-brand .logo, 
 .rd-navbar--is-stuck .logo {
   max-width: 35%;
 }
