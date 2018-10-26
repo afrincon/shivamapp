@@ -1283,7 +1283,7 @@ h1, .heading-1 {
 h2, .heading-2 {
   font-size: 34px;
   line-height: 1.5;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #252023;
   text-transform: uppercase;
   letter-spacing: -1px; }
@@ -1297,7 +1297,7 @@ h2, .heading-2 {
 h3, .heading-3 {
   font-size: 25px;
   line-height: 1.5;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   letter-spacing: -1px; }
   @media (min-width: 768px) {
@@ -1579,7 +1579,7 @@ h3 + .list-2 {
     @media (min-width: 1600px) {
       .well-xl-7 {
         padding-top: 1.3rem;
-        padding-bottom: 1.45rem; } }
+        padding-bottom: 1.45rem; }}
   .well-xl-8 {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem; }
@@ -1859,20 +1859,39 @@ h3 + .list-2 {
 html body .page .text-primary {
   color: #29c0ff; }
 
+h3.special {
+  color: #fff;
+  position: fixed;
+  left: 30%;
+  top: 70%;}
+  @media (min-width: 768px) {
+    h3.special {
+      left: 25%;
+      top: 60%;
+      font-size: 0.4rem;
+    }
+  }
+  @media (min-width: 395px) {
+    h3.special {
+      left: 5%;
+      top: 60%;
+      font-size: 0.4rem;
+    }
+  }
 /*
 * @subsection   Backgrounds
 */
 .bg-primary-1 {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#37c3ff+0,47c7ff+100 */
-  background: #37c3ff;
+  background: #6988bf;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #37c3ff 0%, #47c7ff 100%);
+  background: -moz-linear-gradient(top, #6988bf 0%, #6988bf 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #37c3ff 0%, #47c7ff 100%);
+  background: -webkit-linear-gradient(top, #6988bf 0%, #6988bf 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #37c3ff 0%, #47c7ff 100%);
+  background: linear-gradient(to bottom, #6988bf 0%, #6988bf 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37c3ff', endColorstr='#47c7ff',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6988bf', endColorstr='#47c7ff',GradientType=0 );
   /* IE6-9 */ }
 
 .bg1 {
@@ -1887,17 +1906,19 @@ html body .page .text-primary {
       background: transparent url("../images/bg_header.jpg") no-repeat scroll 50% 0/cover; } }
 
 .bg3 {
-  background: transparent url("../images/page-2_img09.png") no-repeat scroll 50% 0/cover; opacity: 0.6; }
+  background: transparent url("../images/smfs.jpg") no-repeat scroll 50% 0/cover; opacity: 0.6; min-height: 805px; }
 
 .bg4 {
-  background: transparent url("../images/page-3_img06.jpg") no-repeat scroll 50% 0/cover; opacity: 0.6; }
+  background: transparent url("../images/slide4.jpg") no-repeat scroll 50% 0/cover; opacity: 0.6; }
 
 .bg5 {
   background: transparent url("../images/page-4_img05.jpg") no-repeat scroll 50% 0/cover; opacity: 0.6; }
 
 .bg6 {
     background: transparent url("../images/smfs.jpg") no-repeat scroll 50% 0/cover;  }
-  
+
+  .bg7 {
+    background: transparent url("../images/contacto.jpg") no-repeat scroll 50% 0/cover; min-height: 700px; }
 
 .default-9 {
   background: #fafafa; }
@@ -7512,8 +7533,17 @@ a.icon-primary:hover {
 
 .rd-navbar-brand .logo, 
 .rd-navbar--is-stuck .logo {
-  max-width: 35%;
-}
+  max-width: 35%; }
+  @media (max-width: 1196px) {
+    .rd-navbar-brand .logo {
+      width: 250px;}  }
+  @media (max-width: 997px) {
+    .rd-navbar-brand .logo {
+      width: 250px;}  }
+  @media (max-width: 767px){
+    .rd-navbar-brand .logo {
+      width: 250px;}  }
+     
 
 .rd-navbar.rd-navbar-fixed + .rd-navbar.rd-navbar--is-clone,
 .rd-navbar.rd-navbar-sidebar + .rd-navbar.rd-navbar--is-clone {
