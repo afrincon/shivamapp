@@ -1907,6 +1907,11 @@ h3.special {
 
 .bg3 {
   background: transparent url("../images/smfs.jpg") no-repeat scroll 50% 0/cover; opacity: 0.6; min-height: 805px; }
+  @media( min-width: 1250px){
+    .bg3 {
+      min-height: 970px;
+    }
+  }
 
 .bg4 {
   background: transparent url("../images/slide4.jpg") no-repeat scroll 50% 0/cover; opacity: 0.6; }
